@@ -1,0 +1,51 @@
+HTTrack3.49-2 launched on Sun, 18 Apr 2021 22:34:17 at http://http://citylinegroup.com.tr/ru +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://http://citylinegroup.com.tr/ru -O "/home/maks/Desktop/websites/citylinegroup" -n -t -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:34:24	Warning: 	File not parsed, looks like binary: http://citylinegroup.com.tr/robots.txt
+00:12:46	Warning: 	file not stored in cache due to bogus state (broken size, expected 1362456 got 541308): http://citylinegroup.com.tr/sayfa/resim_cache/341-b36fbefc5b864665d3f4bb8184f1db41_farkbilisim.com_1920X1440--a--.jpeg
+00:13:29	Warning: 	file not stored in cache due to bogus state (broken size, expected 8003633 got 2620348): http://citylinegroup.com.tr/sayfa/resim_cache/351-3fc8d85b4841d99c64b87ac2b5e382c3_farkbilisim.com_4961X3508--a--a.jpeg
+00:13:56	Warning: 	file not stored in cache due to bogus state (broken size, expected 8980273 got 2372148): http://citylinegroup.com.tr/sayfa/resim_cache/351-e54ce681035ae123c61c42d68e4f4708_farkbilisim.com_4961X3508--a--a.jpeg
+00:21:31	Warning: 	file not stored in cache due to bogus state (broken size, expected 1729349 got 196748): http://citylinegroup.com.tr/sayfa/resim_cache/341-bcff374f457e29087bd289797f5e96d5_farkbilisim.com_1920X1440--a--.jpeg
+00:21:33	Warning: 	file not stored in cache due to bogus state (broken size, expected 1722455 got 955948): http://citylinegroup.com.tr/sayfa/resim_cache/341-a0a89a55779c8f2221d18d5a6459bd2d_farkbilisim.com_1920X1440--a--.jpeg
+00:22:07	Warning: 	file not stored in cache due to bogus state (broken size, expected 1741794 got 1493228): http://citylinegroup.com.tr/sayfa/resim_cache/341-0be996fc131c2df00cadbf1041d6f970_farkbilisim.com_1920X1440--a--.jpeg
+01:57:13	Warning: 	File not parsed, looks like binary: https://citylinegroup.com.tr/robots.txt
+02:03:24	Warning: 	HTML file (13650 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/hakkimizda.html
+02:03:25	Warning: 	HTML file (23514 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/serenity_residence.html
+02:03:31	Warning: 	Retry after error -4 (No data (connection closed)) at link http://citylinegroup.com.tr/ru/serenity_residence.html (from http://citylinegroup.com.tr/ru)
+02:03:31	Warning: 	HTML file (25262 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/serenity_royal_beach.html
+02:03:49	Warning: 	HTML file (18673 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/serenity_grand_kaptan.html
+02:04:01	Warning: 	HTML file (20105 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/city_street.html
+02:04:13	Warning: 	HTML file (23071 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/serenity_residence.html
+02:04:20	Warning: 	HTML file (45806 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/ru/serenity_grand_kaptan.html
+02:04:37	Warning: 	HTML file (19507 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/exodus_residence.html
+02:04:59	Warning: 	HTML file (23629 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/city_marina.html
+02:05:06	Warning: 	HTML file (17137 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/city_office.html
+02:05:23	Warning: 	HTML file (20202 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/exodus_park_.html
+02:05:40	Warning: 	HTML file (45408 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/index.php?dil=1
+02:05:52	Warning: 	HTML file (28507 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/serenity_royal_beach.html
+02:11:19	Warning: 	HTML file (23514 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/serenity_residence.html
+02:11:26	Warning: 	Retry after error -4 (Incorrect length (2620348 Bytes, 8003633 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/351-3fc8d85b4841d99c64b87ac2b5e382c3_farkbilisim.com_4961X3508--a--a.jpeg (from http://citylinegroup.com.tr/ru/serenity_grand_kaptan.html)
+02:11:26	Warning: 	Retry after error -4 (Incorrect length (2372148 Bytes, 8980273 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/351-e54ce681035ae123c61c42d68e4f4708_farkbilisim.com_4961X3508--a--a.jpeg (from http://citylinegroup.com.tr/ru/serenity_grand_kaptan.html)
+02:11:31	Warning: 	Retry after error -4 (Incorrect length (541308 Bytes, 1362456 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/341-b36fbefc5b864665d3f4bb8184f1db41_farkbilisim.com_1920X1440--a--.jpeg (from http://citylinegroup.com.tr/ru/city_street.html)
+02:11:36	Warning: 	Retry after error -4 (Incorrect length (1493228 Bytes, 1741794 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/341-0be996fc131c2df00cadbf1041d6f970_farkbilisim.com_1920X1440--a--.jpeg (from http://citylinegroup.com.tr/ru/city_street.html)
+02:11:42	Warning: 	Retry after error -4 (Incorrect length (955948 Bytes, 1722455 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/341-a0a89a55779c8f2221d18d5a6459bd2d_farkbilisim.com_1920X1440--a--.jpeg (from http://citylinegroup.com.tr/ru/city_street.html)
+02:12:28	Warning: 	Retry after error -4 (Incorrect length (196748 Bytes, 1729349 expected)) at link http://citylinegroup.com.tr/sayfa/resim_cache/341-bcff374f457e29087bd289797f5e96d5_farkbilisim.com_1920X1440--a--.jpeg (from http://citylinegroup.com.tr/ru/city_street.html)
+02:12:28	Warning: 	HTML file (45644 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/tr/serenity_grand_kaptan.html
+02:12:37	Warning: 	HTML file (46094 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/ru/ru/tr/serenity_grand_kaptan.html
+02:12:46	Warning: 	HTML file (20298 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/exodus_residence.html
+02:12:55	Warning: 	HTML file (16455 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/city_office.html
+02:12:59	Warning: 	HTML file (45806 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/en/en/serenity_grand_kaptan.html
+02:13:08	Warning: 	HTML file (45932 bytes) retransferred due to lack of cache: http://citylinegroup.com.tr/tr/tr/tr/serenity_grand_kaptan.html
+02:13:47	Warning: 	File not parsed, looks like binary: http://citylinegroup.com.tr/sayfa/files/fonts/glyphicons-halflings-regular.woff2
+02:13:47	Warning: 	File not parsed, looks like binary: http://citylinegroup.com.tr/sayfa/files/css/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+02:14:25	Warning: 	File not parsed, looks like binary: http://citylinegroup.com.tr/sayfa/files/plugins/revolution/revolution/css/openhand.cur
+02:14:25	Warning: 	File not parsed, looks like binary: http://citylinegroup.com.tr/sayfa/files/plugins/revolution/revolution/css/closedhand.cur
+02:14:25	Warning: 	Retry after error -4 (No data (connection closed)) at link http://citylinegroup.com.tr/sayfa/resim_cache/351-3fc8d85b4841d99c64b87ac2b5e382c3_farkbilisim.com_4961X3508--a--a.jpeg (from http://citylinegroup.com.tr/ru/serenity_grand_kaptan.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 hours 54 minutes 22 seconds : 476 links scanned, 485 files written (297704204 bytes overall) [296028448 bytes received at 21051 bytes/sec], 3180911 bytes transferred using HTTP compression in 116 files, ratio 19%, 1.5 requests per connection
+(No errors, 40 warnings, 0 messages)

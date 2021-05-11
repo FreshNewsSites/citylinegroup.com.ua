@@ -6,21 +6,47 @@ window.onload = function (e) {
   const allElementsInfo = document.querySelectorAll(aboutSelector);
   if(allElementsInfo.length === 3){
    const contentElement =  allElementsInfo[2].children[1];
-      //    <h5>Представник в Україні</h5>
-      // <h5>Губенко Оксана Павлівна</h5>
-   contentElement.innerHTML = `
-    <div>
-      <h4>Адрес</h4>
-      <h5>м.Вінниця вул. Келецька 57</h5>
-    </div>
-   `;
+    if (contentElement){
+      contentElement.innerHTML = `
+        <div>
+          <h4>Адрес</h4>
+          <h5>м.Вінниця вул. Келецька 57</h5>
+        </div>
+      `;
+    }
   }
-  phone.innerHTML = `
-    <div>
-      <h4>Телефон</h4>
-      <h5>+38 068 830 90 44</h5>
-      <h5>+38 093 258 17 50</h5>
-    </div>
-  `;
-  email.textContent = "kseniagubenko1987@gmail.com";
+  if (phone){
+    phone.innerHTML = `
+      <div>
+        <h4>Телефон</h4>
+        <h5>+38 068 830 90 44</h5>
+        <h5>+38 093 258 17 50</h5>
+      </div>
+    `;
+  }
+  if (email){
+    email.textContent = "kseniagubenko1987@gmail.com";
+  }
+
+  const contactSelector = ".widget.text-center";
+  if (contactSelector){
+    const adress = document.querySelector(`${contactSelector}.widget_address.m-b20 div.widget-section ul li`);
+    if (adress){
+      adress.textContent = `м.Вінниця вул. Келецька 57`;
+    }
+    const contact = document.querySelector(`${contactSelector}.getin-touch .widget-section ul`);
+    const contactLis = contact.querySelectorAll('li');
+    if (contactLis.length > 1){
+      contactLis[0].textContent = "kseniagubenko1987@gmail.com";
+      contactLis[1].innerHTML = `
+      <div>
+        <h5>+38 068 830 90 44</h5>
+        <h5>+38 093 258 17 50</h5>
+      </div>
+    `;
+    }
+  }
+
+
+
 }
